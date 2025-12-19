@@ -2,6 +2,8 @@ import { Routes, Route, Link } from 'react-router-dom'
 import LoginPage from './pages/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
 import DashboardPage from './pages/DashboardPage.jsx'
+import MFAPage from './pages/MFAPage.jsx'
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/mfa" element={<MFAPage />} />
         </Routes>
       </main>
     </div>
